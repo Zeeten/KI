@@ -1,0 +1,269 @@
+.pav-category-products .box-content{
+    background-color: #FFF;
+    padding: 0;
+}
+
+.cat-products-block{
+    position:relative;      
+}
+/** block header **/
+.cat-products-block .block-head{
+    background-color:#f4f4f4;
+
+}
+.cat-products-block .block-head h3{
+    padding: 6px 12px;  
+    margin:0;                               
+}   
+
+/***** block content *********/
+.cat-products-block  .block-content{
+    background-color:#FFFFFF;
+    margin: 12px;
+    position: relative;
+
+}
+
+.cat-products-block .carousel-controls {
+    position: absolute;
+    top: -99999em;
+    left: -99999em;
+    z-index: 6;
+    width: 130px
+}
+
+.tabs-category{
+    margin:0;   
+    float: left;
+    width: 23.3333%;
+    position: relative;
+    z-index: 100;
+    padding: 20px 0;
+}
+.product-tab-content{
+    float: left;
+    width: 76.6667%;
+    border: 0;
+}
+
+.product-tab-content:before{
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 23.3333%;
+    background: #234785;
+}
+
+.pav-product-category .product-inner{
+    border:0;
+    padding: 0;
+    min-height: 230px;
+    height: 230px;
+    height: auto !important;        
+}
+
+.pro-content .image,.pro-content .product-inner{
+    position: static;
+}
+
+.pro-content .image{
+    padding:  15px 8% 12px;
+}
+
+.pav-product-category .product-block{
+    border-right: 1px solid #e5e2dd;
+    position: relative;
+    overflow: hidden;
+}
+
+.pav-product-category .product-block p{
+    min-height: 40px;
+}
+
+.pav-product-category .is-hidden{
+    margin:0;
+    text-align: right;
+    padding: 0 8%;  
+}
+
+.wrapper-product-category{
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: #e5e2dd;
+    background-color: #FFFFFF;
+}
+.pav-product-category .box-product{
+    border-bottom: 1px solid #e5e2dd;
+}
+.pav-product-category .box-product:last-child{
+    border:0;
+}
+
+.bg-highlight{
+    position: relative;
+}
+.h-tabs li{ 
+    line-height: normal;
+    min-height: 32px;
+    overflow: hidden;
+}
+.h-tabs li a{
+    background: none repeat scroll 0 0 #234785;
+    color: #FFFFFF;
+    float: right;
+    font-size: 100%;
+    font-style: italic;
+    line-height: normal;
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding: 6px 10px 6px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: all 0.6s ease 0s;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+}
+.h-tabs li.last a{
+    margin-bottom: 0;
+}
+.h-tabs a img{
+    float: right;
+    margin: 5px 0 0 15px;
+}
+.h-tabs a span{
+    float: left;
+    margin: 3px 0 0 8px;
+}
+.h-tabs li.active a,.h-tabs li a:hover{
+    background: #CF2E50;
+}
+.pro-content .product-bottom{
+    padding: 0;
+    position: absolute;
+    top: 0;   
+    opacity: 0;
+    width: 100%;
+    height: 100%;   
+    
+    transition:opacity .2s ease-in-out;
+    -webkit-transition:opacity .25s ease-in-out;
+    -ms-transition:opacity .2s ease-in-out;
+    -moz-transition:opacity .2s ease-in-out;
+    -o-transition:opacity .2s ease-in-out;
+    
+    background-color:#000000 ;
+    
+}
+
+.pro-content .product-wrapper-bottom{
+    padding: 20px;
+}
+
+.pro-content .product-wrapper-bottom a{
+    color:#FFFFFF;
+}
+
+.pro-content:hover .product-bottom{ 
+    opacity: 1; 
+}
+
+.pro-content .description{
+    color: #aba59a;
+}
+
+.pro-content:hover .is-over{
+    z-index: 2;
+    position: relative;
+}
+
+.btn-is-enable{ 
+    opacity: 1; 
+}
+
+.pro-content:hover .is-hidden{
+    position: absolute;
+    left: -99999em;
+    top: -99999em;
+}
+
+
+/* Effect for overlay 
+======================================================
+
+.product-block [class*="bg-hover-"]{
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center; 
+    display: block;
+
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    font-size: 0; 
+    
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s; 
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s; 
+
+    color: transparent; 
+    padding: 0;
+    
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+
+    z-index: 1; 
+
+    background: url("../image/bg-overlay.png") repeat 0 0;
+    
+}
+
+
+right
+.product-block .bg-hover-right{ 
+    top: 0; 
+    left: 50%;  
+} 
+
+top
+.product-block .bg-hover-top{ 
+    top: -50%; 
+    left: 0;    
+} 
+
+left
+.product-block .bg-hover-left{ 
+    top: 0; 
+    left: -50%; 
+} 
+
+bottom
+.product-block .bg-hover-bottom{ 
+    top: 50%; 
+    left: 0;    
+} 
+
+.product-block [class*="bg-hover-"]:hover{ 
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1);
+    opacity: 1; 
+}
+
+.product-block [class*="bg-hover-"]:nth-child(2n+1):hover{
+    left: 0;
+}
+.product-block [class*="bg-hover-"]:nth-child(2n):hover{
+    top: 0;
+} */

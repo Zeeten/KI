@@ -1,0 +1,379 @@
+/* #Large desktop 
+===========================================================================================================================================================================*/
+@media (min-width: 1200px) {
+	#off-canvas-nav{
+		display: none;
+	}
+}
+
+/* #Ipad landscape
+===========================================================================================================================================================================*/
+@media (min-width: 940px) and (max-width: 1170px) {
+	#off-canvas-nav{
+		display: none;
+	}
+}
+
+/* #Ipad Portrait
+===========================================================================================================================================================================*/   
+@media (min-width: 768px) and (max-width: 979px) {
+
+	h1, .h1{
+		font-size: 17px;
+	}
+
+	h2, .h2{
+		font-size: 15px;
+	}
+	
+	h3, .h3{
+		font-size: 13px;
+	}
+
+	h4, .h4{
+		font-size: 11px;
+	}
+
+	/* #Header 
+	=========================================================*/
+	.pav-header-top{
+		padding: 8px 0;
+	}
+
+	/* SlideShow */
+	.tp-caption.pav_big,
+	.tp-caption.pav_small,
+	.pav_desc,.pav_desc_white,.pav-button-layer
+	{
+		display: none;		
+	}
+
+
+	/* #Manufacture 
+	=========================================================*/
+	.jcarousel-skin-opencart .jcarousel-item a, .jcarousel-skin-opencart .jcarousel-item span{
+		line-height: normal;
+		font-size: 90%;
+	}
+
+	/* #Mass Bottom 
+	=========================================================*/
+	.m-height .box-content{
+		min-height: 100%;
+	}
+
+	/* #Footer 
+	=========================================================*/
+	.footer-top-wrapper{
+		margin:0;
+	}
+	.footer-top-inner:before{
+		display: none;
+	}
+	.footer-top-inner:after{
+		display: none;
+	}
+	footer h3{
+		font-size: 100%;
+	}
+	footer p{
+		font-size: 90%;
+	}
+	
+	/* #Navigation 
+	=========================================================*/
+	.is-white{
+		background-color: #FFFFFF;		
+	}
+	.navbar-inner{
+		min-height: 0;
+	}
+
+	/* #Carousel 
+	=========================================================*/
+
+
+.jcarousel .box-content{
+		padding-left: 3%;padding-right: 3%;
+	}
+
+	/* #testimonial 
+	=========================================================*/
+
+	.testimonial{
+		width: 45%;
+	}
+
+	.t-avatar{
+		width: 36%;
+	}
+
+	/*Product
+	=========================================================*/
+	.product-grid .pavicon-compare-default, 
+	.product-grid .pavicon-wishlist-default,
+	.product-grid .product-inner:hover .pavicon-compare-default,
+	.product-grid .product-inner:hover .pavicon-wishlist-default
+	{
+		display: none;
+	}
+
+	.row-fluid .pav-span4{
+		width: 33.3333%;
+		margin: 0;
+	}
+
+	.pro-content .description{
+		display: none;
+		visibility: hidden;
+	}
+
+
+
+	.product-block h3{
+		margin: 0;
+	}
+
+	.product-list .product-block{
+		width: 100%;
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.product-list .product-block p{
+		min-height: 20px;		
+	}
+
+	.product-info .cart{
+		margin: 10px 0;
+		float: left;
+	}
+
+}
+
+
+
+
+
+
+/* #Iphone 5 landscape 
+===========================================================================================================================================================================*/
+@media(max-width:767px) {
+
+	
+
+}
+
+
+   
+/* #Iphone 4 + 5 Portrait 
+===========================================================================================================================================================================*/
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+
+	/* Header
+	=========================================================*/
+	.pav-header-top{
+		padding: 10px;
+		background: red;
+	}
+	#welcome{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		float: none;
+		clear: both;
+		text-align: center;
+	}
+	.language-wrapper,
+	.currency-wrapper{
+		text-align: center;
+		float: none !important;
+		margin: 5px 0;
+	}
+	#logo{
+		margin: 10px 0;
+		text-align: center;
+		width: 100%;
+	}
+	#search, #cart{
+		display: inline-block;
+		float: none;
+		margin: 5px 5%;
+		width: 80%;
+	}
+	span.h1{
+		width: 80%;
+	}
+	.links{
+		text-align: center;
+	}
+	.links li{
+		float: none;
+		display: inline-block;
+	}
+	
+	.navbar-inner{
+		min-height: inherit;
+	}
+	
+	.product-tab-content:before{
+		display: none;
+	}
+	.tabs-category,.product-tab-content,.h-tabs li a{
+		width: 98%;
+	}
+	a.button, input.button, .btn, .btn-small{font-size: 12px !important;}
+	.h-tabs li a{
+		padding: 6px;
+	}
+	.footer-top-wrapper{
+		margin: 0;
+	}
+	.foot-pack{margin-top: 0;}
+	.footer-top-inner{height: auto; padding: 10px 0;}
+	.footer-top-inner:before, .footer-top-inner:after{display: none;}
+
+	/* Product Tab 
+	=========================================================*/
+	.nav-tabs > li > a{
+		padding: 8px 5px;
+		margin: 0 2px 0 0;
+	}
+
+	.carousel-controls .left{
+		display: none;
+	}
+	.carousel-controls .right{
+		display: none;
+	}
+
+	/* Product 
+	=========================================================*/
+	.pavicon-compare-default, .pavicon-wishlist-default{
+		height: 28px;
+	}
+
+	#image-additional a{
+		margin-right: 2px;margin-left: 2px;
+	}
+
+	#image-additional{
+		width: 100%;
+	}
+
+	/* testimonial 
+	=========================================================*/
+
+	.testimonial{
+		margin:0;		
+	}
+
+	.testimonial:before,
+	.testimonial:after{
+		display: none;
+	}	
+
+	.pavtestimonial p{
+		font-size: 100%;
+	}
+
+
+	/* Manufacture */
+	.jcarousel-list li img{
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+	}
+
+	.jcarousel-skin-opencart .jcarousel-next-horizontal, 
+	.jcarousel-skin-opencart .jcarousel-prev-horizontal,
+	.jcarousel-skin-opencart .jcarousel-item span
+	{
+		display: none;
+	}
+	.jcarousel .box-content{
+		padding: 20px 13px;
+	}
+
+	/* Footer */
+	.input-box .input-subscribe{
+		width: 150px;
+	}
+	.button-newsletter span{
+		float: left;
+		font-size: 12px;
+		margin-top: 6px;
+	}
+	.input-box{
+		margin-top: 20px;
+	}
+	.foot-pack{
+		padding: 20px 20px 40px;
+	}
+	.foot-pack p{
+		line-height: normal;
+	}
+	footer h3{
+		font-size: 100%;
+	}
+	#back-top a{
+		left: 40%;
+	}
+	.info li{
+		line-height: 20px;
+	}
+	address{
+		line-height: 20px;
+		margin: 10px 0 0 0;
+	}
+	#powered{
+		padding: 20px 10px;
+	}
+
+	a.button-newsletter{
+		padding-left: 8px;padding-right: 8px;
+	}
+	.input-box .input-subscribe{
+		width: 130px;
+	}
+
+	.nav-tabs > li > a{
+		padding: 8px;
+		font-size: 100%;
+	}
+
+	/* SlideShow 
+	=========================================================*/
+	[id*="sliderlayer"] .tp-bannershadow,[id*="sliderlayer"] .tp-bullets{
+		display: none;
+	}
+
+	.pav-about-us img{
+		display: none;
+	}
+
+	.bannercontainer:hover .tparrows{
+		display: none;
+	}
+
+	/* testimonial 
+	=========================================================*/
+
+	.testimonial{
+		width: 100%;
+	}
+	.t-avatar{
+		width: 100%;
+		float: left;
+		text-align: left;margin-top: 20px;
+	}
+	.colorbox-t{
+		padding-top: 10px;
+		display: inline-block;
+
+	}
+
+
+
+}

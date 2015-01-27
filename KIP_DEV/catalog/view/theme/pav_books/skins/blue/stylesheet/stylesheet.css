@@ -1,0 +1,470 @@
+/*Stylesheet.css
+====================================================*/
+*::-moz-selection {
+    background-color: #446cb3; 
+}
+::selection {
+    background-color: #446cb3;
+}
+.color{
+    color: #446cb3;
+}
+.bg-color{
+    background-color: #446cb3;
+}
+.btn-group .list-item:hover{
+    background-color: #446cb3;   
+}
+.pavicon-compare-default:hover,
+.pavicon-wishlist-default:hover{    
+    background-color: #446cb3;
+}
+.pavicon-next:hover,.pavicon-prev:hover{
+    border-color: #446cb3;
+}  
+.navbar .nav > li > .dropdown-menu{    
+    border: 3px solid #446cb3;    
+}
+.navbar .nav > li:hover{
+    border-top:4px solid #446cb3;    
+}
+.navbar .nav > li:hover a{
+    color: #446cb3;
+}
+.navbar .btn-navbar,
+.navbar .btn-navbar:hover{
+    background-color: #446cb3;     
+}
+.breadcrumb a.last,
+.breadcrumb a:hover{
+    color: #446cb3;
+}
+.pagination .links a:hover{
+    background-color: #446cb3;    
+}
+.pagination .links b{    
+    background: #446cb3;      
+    border: 1px solid #446cb3;
+}
+
+.pav-button-layer{
+    background-color: #446cb3;
+}
+
+.tp-bullets.simplebullets.round .selected,
+.tp-bullets.simplebullets.round .bullet:hover
+{
+    background-position: 0 -431px;
+}
+
+.tp-bullets.simplebullets .bullet:hover,
+.tp-bullets.simplebullets .bullet.selected              {   
+    background-position: 0 -431px;
+}
+
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.navbar .bullet:hover,
+.tp-bullets.simplebullets.navbar .bullet.selected       {   
+    background-position: 0 -431px;
+}
+
+
+
+
+.tp-bullets.simplebullets.round .bullet{
+    background-position: -24px -432px;
+}
+
+
+
+
+
+.product-related .box-heading{
+    background-color: #446cb3;        
+}
+.product-related .box-heading:before{
+    border-top: 11px solid #446cb3;
+}
+.display .active{    
+    border-color: #446cb3;
+    background-color: #446cb3;
+}
+.product-inner:hover h3 a:hover{
+    color: #446cb3;
+}
+.product-list h3 a:hover,.product-list .name a:hover
+{
+    color: #446cb3;
+}
+.product-label-special{   
+    background-color: #446cb3;   
+}
+
+
+
+
+.box .box-heading{
+	background-color: #686868;
+}
+input[type="file"]:hover{
+	background-color: #446cb3;
+}
+a.button-newsletter:hover{
+	color: #FFF;
+}
+.tp-caption.pav_big{
+	background-color: #446cb3;
+}
+
+.tp-caption.pav_small{
+	background-color: #9b9b9b;
+}
+.tp-leftarrow.round, .tp-rightarrow.round{
+	background-color: #949494;
+}
+.tp-leftarrow.round:hover, .tp-rightarrow.round:hover{
+	background-color: #446cb3;
+}
+a.button, input.button, .btn, .btn-small{
+	background-color: #4e4e4e;
+}
+
+.product-inner:hover .button,.product-inner:hover .pavicon-compare-default,.product-inner:hover .pavicon-wishlist-default
+{
+	background-color: #686868;
+}
+
+.product-inner:hover .button:hover,.product-inner:hover .pavicon-compare-default:hover,.product-inner:hover .pavicon-wishlist-default:hover{
+	background-color: #446cb3;  
+}
+
+.pavicon-compare-default,
+.pavicon-wishlist-default{
+	background-color: #4e4e4e;
+}
+#off-canvas-nav .nav > li { 
+    border-bottom: 1px solid #4d4d4d;
+}
+.img-overlay{
+	background-color: #4d4d4d;
+}
+.nav-tabs > li > a{ 
+	background-color: #3b3b3b;
+}
+.carousel-control:hover{
+    background-color: #3b3b3b;
+}
+
+.pavicon-search{
+	background-color: #3b3b3b;
+}
+.navbar .nav > li > .dropdown-menu > li > ul > li:hover{
+	background-color: #3b3b3b;
+}
+
+#off-canvas-nav .pavo-mainnav{
+	background-color: #3b3b3b;
+}
+.jcarousel-skin-opencart .jcarousel-next-horizontal:hover,
+.jcarousel-skin-opencart .jcarousel-prev-horizontal:hover
+{
+	background-color: #3b3b3b;	
+}
+.product-tab-content:before{	
+	background: #3b3b3b;
+}
+.navbar .dropdown-menu-inner > ul > li:hover{
+	background-color: #3b3b3b;
+}
+.btn-primary {
+  background-color: #616528;
+  background-image: -moz-linear-gradient(top, #686868, #6f9426);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#686868), to(#6f9426));
+  background-image: -webkit-linear-gradient(top, #686868, #6f9426);
+  background-image: -o-linear-gradient(top, #686868, #6f9426);
+  background-image: linear-gradient(to bottom, #686868, #6f9426);
+  border-color: #6f9426 #6f9426 #415716;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #6f9426;  
+}
+
+.box-heading:before{        
+    border-top: 11px solid #686868; 
+}
+.h-tabs li a{
+	background-color: #686868;   
+}
+.manufacturer-heading {
+    background-color: #686868;
+}
+.pro-content .product-bottom{
+	background: none repeat scroll 0 0 rgba(77, 77, 77, 0.95);
+}
+.jcarousel-skin-opencart .jcarousel-next-horizontal,
+.jcarousel-skin-opencart .jcarousel-prev-horizontal{
+	background-color:#4e4e4e;
+}
+.carousel-control{ 
+	background-color:#4e4e4e;
+}
+.pav-about-us .box-heading{
+	background-color: #f26e50;
+}
+.pav-twitter-latest .box-heading{
+	background-color: #3b3b3b;
+}
+
+.pav-product-tab .carousel-control:hover{
+	background-color: #3b3b3b;
+}
+#powered {
+    background-color: #1d1d1d;    
+}
+
+.foot-pack{
+	background:url("../image/bg_footer_center.png") repeat scroll 0 0 transparent;
+}
+
+.pavicon-phone,.pavicon-fax,.pavicon-shop{    
+    background-color: #686868;   
+}
+
+footer a,footer p{
+	color:#959595;
+}
+
+.product-related .box-heading{
+    background-color: #446cb3;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jcarousel.is-highlight .box-content:before{
+	border-color: transparent transparent #446cb3 #446cb3;
+}
+
+.jcarousel.is-highlight .box-content:after{
+	border-color: transparent #446cb3 #446cb3 transparent;
+}
+
+.sidebar ul > li > a:hover{
+    color: #446cb3;
+}
+.product-info h2 {    
+    color: #446cb3;    
+}
+#tab > li > .selected:before{    
+    border-top: 11px solid #446cb3;    
+}
+a.button-newsletter{   
+    background-color: #446cb3;   
+}
+.info li a:hover{
+    color: #446cb3;
+}
+#back-top a{   
+    background-color: #446cb3;   
+}
+address a{
+    color: #446cb3;
+}
+ul li a.active{
+    color: #446cb3;
+}
+#off-canvas-nav ul li a:hover
+{    
+    color: #446cb3;
+}
+
+.h-tabs li.active a, .h-tabs li a:hover{
+	background-color: #446cb3;
+}
+
+/*Layout.css
+====================================================*/
+.nav-tabs > .active > a:link, .nav-tabs > .active > a:hover, 
+.nav-tabs > li > a:hover,.nav-tabs > .active > a:focus,
+.nav-tabs .selected:link, .nav-tabs .selected:hover, 
+.nav-tabs .selected:focus 
+{
+    background-color: #446cb3;
+}
+.nav-tabs > .active > a:before{   
+    border-top: 11px solid #446cb3;   
+}
+.button:hover,.btn:hover,.btn-small:hover{
+    background-color: #446cb3;
+}
+
+/*Typo.css
+====================================================*/
+.tp-caption.pav_offter{
+    background-color: #446cb3;
+}
+.tp-leftarrow:hover,
+.tp-rightarrow:hover {
+    background-color: #446cb3;
+}
+
+/*Bootstrap.css
+====================================================*/
+a:hover,
+a:focus {
+  color: #446cb3;  
+}
+.btn-primary {
+    background-color: #446cb3;
+    background-image: -moz-linear-gradient(top, #574629, #446cb3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#574629), to(#446cb3));
+    background-image: -webkit-linear-gradient(top, #574629, #446cb3);
+    background-image: -o-linear-gradient(top, #574629, #446cb3);
+    background-image: linear-gradient(to bottom, #574629, #446cb3);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff574629', endColorstr='#ff446cb3', GradientType=0);
+    border-color: #446cb3 #446cb3 #415716;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #446cb3;  
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {  
+    background-color: #446cb3;
+    *background-color: #608021;
+}
+.btn-link:hover,
+.btn-link:focus {
+    color: #446cb3;
+}
+.btn-group.open .btn-primary.dropdown-toggle {
+    background-color: #446cb3;
+}
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret {
+    border-top-color: #446cb3;
+    border-bottom-color: #446cb3;
+}
+
+/*Crousel.css
+====================================================*/
+
+.jcarousel-list li img:hover
+{
+    border-color: #446cb3;
+}
+
+.jcarousel.highlight .box-content:before{   
+    border-color: transparent transparent #446cb3 #446cb3;
+}
+
+.jcarousel.highlight .box-content:after{    
+    border-color: transparent #446cb3 #446cb3 transparent;
+}
+
+.jcarousel .box-heading{   
+    background-color: #446cb3;
+}
+.jcarousel .box-heading:before{     
+    border-top: 12px solid #446cb3;
+}
+
+.jcarousel .box-heading:after{  
+    
+    border-top: 12px solid #446cb3;
+    
+}
+
+
+#image-additional .pavicon-prev{
+	background-position: -225px -349px;
+}
+
+#image-additional .pavicon-next{
+	background-position: -258px -349px;
+}
+
+/*Pavmegamenu.css
+====================================================*/
+
+.menu-desc{
+    background-color: #446cb3;  
+}
+.mega-col .dropdown-submenu .dropdown-toggle:hover{
+    color: #446cb3;
+}   
+
+/*Theme-Responsive.css
+====================================================*/
+@media(max-width:767px) {
+    .pav-header-bottom{
+        background-color: #446cb3 !important;  
+    }
+}   
+
+
+
+/*Background Image
+====================================================*/
+
+.pav-header-bottom{
+  //  background: url("../image/bg_header_bottom.png") repeat-x 0 0;     
+}
+
+.wrapper-header-bottom{
+    background-color: #d7d7d7;
+}
+.navbar .nav > li.parent a:after{
+	background:url("../image/arrow-menu-hover.png") no-repeat scroll 0 0 transparent;
+}
+
+.pavicon-account{
+    background-position: 0 -80px;
+}
+
+a:hover .pavicon-account{
+    background-position: 0 -64px;
+}
+.pavicon-wishlist-top{
+    background-position: -34px -80px;  
+    
+}
+
+a:hover .pavicon-wishlist-top{
+    background-position: -34px -64px;
+}
+
+.pavicon-checkout{
+    background-position: -69px -81px;   
+}
+
+a:hover .pavicon-checkout{
+    background-position:-69px -65px;
+}
+.pavicon-login{
+    background-position: -107px -80px;    
+    
+}
+
+a:hover .pavicon-login{
+    background-position:-107px -64px;
+}
+
+.pavicon-search{
+    background-color: #3b3b3b;
+
+}
+.pavicon-cart{
+    background-position: -291px -167px;
+}
+

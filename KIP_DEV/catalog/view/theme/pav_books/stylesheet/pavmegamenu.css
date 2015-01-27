@@ -1,0 +1,121 @@
+.pav-menu-video iframe { 
+	width: 100%; 
+	min-width: 100%; 
+}
+.dropdown-menu-inner h3{
+	color: #2e3039;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: normal;	
+}
+
+.dropdown-menu-inner p{
+	font-style: italic;
+	color: #7b7771;
+	line-height: 15px;
+}
+
+.navbar .megamenu > li > .dropdown-menu{
+	top: 62px;
+}
+
+.navbar .nav .dropdown-toggle .caret{
+	position: absolute;
+	left: -99999px;
+	top: -99999px;
+}
+
+.megamenu > li.parent{
+	position: static;
+}
+
+.megamenu > li.parent.single{
+	position: relative;
+}
+
+.megamenu  .mega-cols{ 
+	width: 100%;
+	padding: 0;
+}
+.megamenu > .dropdown-menu-inner{
+	padding: 23px 13px;
+}
+
+.dropdown-menu-inner .dropdown-mega{
+	margin: 10px 0 0 0;
+}
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a{
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fffcf7', EndColorStr='#fffcf7');	
+}
+
+.navbar .nav .mega-col > ul > li > a{ 
+	color: #2e3039;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-style: normal;
+	padding: 0;
+	background: none transparent;
+}
+
+.navbar .nav .mega-col > ul > li > a:hover,
+.navbar .nav .mega-col > ul > li:hover,
+.navbar .nav .mega-col > ul > li > a:focus,
+.navbar .nav .mega-col > ul > li > a:active
+{
+	background-color: transparent;
+	background-image: none;
+}
+
+.navbar .dropdown-menu-inner > ul > li{    
+    height: 31px;
+    line-height: 31px;       
+}
+.navbar .dropdown-menu-inner > ul > li:hover{
+	background-color: #40331D;
+}
+.navbar .dropdown-menu-inner > ul > li:hover a,
+.navbar .dropdown-menu-inner > ul > li > a:hover
+{
+    color: #fff;     
+}
+
+.navbar .dropdown-menu-inner > ul > li a:hover{
+	transform: translateX(10px);  
+    -webkit-transform: translateX(10px);  
+    -moz-transform: translateX(10px);  
+    -ms-transform: translateX(10px);  
+    -o-transform: translateX(10px);
+    background: url("../image/menu-item-hover.png") no-repeat scroll 10px 50%; 
+}
+
+.dropdown-submenu .dropdown-toggle{
+	margin: 0 0 0 10px;
+}
+.mega-col .dropdown-submenu .dropdown-toggle:hover{
+	color: #6f9426;
+}	
+
+.navbar .megamenu > li.single > .dropdown-menu{
+	top: 58px;
+}
+.menu-desc{
+	background-color: #6f9426;
+	color: #ffffff;
+	padding: 3px 5px;
+	margin: 0 0 0 5px;
+	height: auto;
+	line-height: normal;
+	display: inline-block;    
+    zoom: 1;
+    *display: inline;
+}
+.menu-content{
+	width: 100%;
+}   

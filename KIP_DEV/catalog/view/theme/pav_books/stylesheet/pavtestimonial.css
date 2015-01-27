@@ -1,0 +1,141 @@
+.pavtestimonial {
+    position:relative;
+    margin:0 0 24px 0;
+    padding: 20px;
+    border: 1px solid #e5e2dd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pavtestimonial p{
+    font-size: 13px;
+    font-style: italic;
+    line-height: 18px;
+    color: #000000;
+    display: inline;
+}
+
+.profile{
+    margin: 0 0 0 12px;
+}
+
+.profile p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.pavtestimonial .carousel-inner{
+    position:relative;
+}
+.pavtestimonial .banner-info{
+    position:absolute;
+    bottom:25%;
+    left:10%;
+    z-index:4;
+    background:#ccc;
+    width:300px;
+    padding:12px;
+    min-height:40px;
+    opacity:0.7;
+    filter: alpha(opacity=70);
+}
+
+.pavtestimonial .carousel-indicators{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+}
+.pavtestimonial .carousel-indicators li{ 
+    display:block;
+    float:left; 
+    z-index:20;
+    padding:10px; 
+    margin:3px; 
+    background:red; 
+}
+.pavtestimonial .carousel-indicators li.active{ 
+    background:#000 
+}   
+
+.pavtestimonial  .thumb-indicators li {
+    text-indent:0; 
+    display: block;
+    float: left;
+    height: 97px;
+    margin: 3px;
+    padding: 3px;
+    width: 23%;
+    z-index: 20;
+}
+.testimonial-item{
+    overflow: hidden;
+}
+.testimonial{
+    float: left;
+    width: 58%;
+    position: relative;
+    margin: 0 35px 0 75px;  
+}
+
+.testimonial:before{
+    background: url("../image/text-qoute.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 61px;
+    left: -75px;
+    position: absolute;
+    top: 0;
+    width: 56px;
+
+}
+
+.testimonial:after{
+    background: url("../image/testimonial_bullet.png") no-repeat 0 0 transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -35px;
+    width: 18px;
+    height: 61px;
+}
+
+.t-avatar{
+    width: 28%;
+    margin: 0 0 0 15px;
+}
+.colorbox-t{
+    /* float: left;
+    clear: both;
+    margin-top: 10px; */
+}
+.pavtestimonial .left{
+    left: 10px;
+    top: 35%;
+}
+.pavtestimonial .right{
+    right: 10px;
+    top: 35%;
+}
+
+.pavtestimonial .carousel-control{
+    transition: opacity 0.2s ease-out 0s;
+    -webkit-transition: opacity 0.2s ease-out 0s;
+    -moz-transition: opacity 0.2s ease-out 0s;
+    -ms-transition: opacity 0.2s ease-out 0s;
+    -o-transition: opacity 0.2s ease-out 0s;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+}   
+.pavtestimonial:hover .carousel-control{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}   
+

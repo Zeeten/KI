@@ -1,0 +1,178 @@
+.btn-group .dropdown{
+    display: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.pavtestimonial:hover .carousel-control{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;    
+}   
+
+.open > .dropdown-menu{
+    display: block;
+}
+
+.product-zoom{          
+	background: transparent;    	     
+}
+
+.product-inner:hover .product-zoom{
+    background-image: url("../image/ie-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+}
+
+.btn-group .dropdown:before{	
+	border-color:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF,endColorstr=#FFFFFF); 
+	zoom: 1;
+}
+.pavicon-compare-default, .pavicon-wishlist-default{
+	height: 30px;	
+}
+
+.btn-group .dropdown{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+}
+.open > .dropdown-menu{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}
+.pavicon-compare-default,
+.pavicon-wishlist-default{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+}
+.pavicon-next,.pavicon-prev{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;     	
+}
+.navbar .nav > li:hover > .dropdown-menu{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;     		
+}
+.product-grid .product-inner:hover .img-overlay,.product-block [class*="bg-hover-"]:hover{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;     			
+}
+.product-grid .product-inner:hover .pavicon-wishlist-default,
+.product-grid .product-inner:hover .pavicon-compare-default{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;     				
+}
+.img-overlay,.product-block [class*="bg-hover-"]{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+}
+.product-list .pavicon-compare-default,
+.product-list .pavicon-wishlist-default
+{   
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;   
+}
+.is-visible{
+	zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;   
+}
+
+.sidebar .hiden{
+    display: none;
+}
+#search{
+    padding-left: 10px;    
+}
+input[class*="span"],select[class*="span"]{
+    height: 20px !important;
+    line-height: 20px !important;
+    min-height: 20px !important;
+}
+#image-additional a{
+    margin-right: 5px;
+    width: 80px;
+    height: 80px;
+}
+.navbar .nav > li > .dropdown-menu{
+    width: auto;
+    min-width: 210px;
+}
+.h-tabs li a{
+    float: none;
+    display: block;    
+}
+.wrapper-product-category{
+    background-color: #FFFFFF; 
+}
+
+
+/* Product Category Tabs 
+===================================================*/
+
+/* right */
+.product-block .bg-hover-right{ 
+    top: 0; 
+    left: 0%;  
+} 
+
+/* top */
+.product-block .bg-hover-top{ 
+    top: -0%; 
+    left: 0;    
+} 
+
+/* left */
+.product-block .bg-hover-left{ 
+    top: 0; 
+    left: -0%; 
+} 
+
+/* bottom */
+.product-block .bg-hover-bottom{ 
+    top: 0%; 
+    left: 0;    
+} 
+
+.btn-is-enable{   
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.pro-content .product-bottom{    
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; 
+    background: url("../image/bg-overlay.png") repeat 0 0;  
+}
+
+.pro-content:hover .product-bottom{ 
+    zoom: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;   
+}
