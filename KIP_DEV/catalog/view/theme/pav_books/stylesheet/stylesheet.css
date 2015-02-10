@@ -1379,7 +1379,7 @@ a.button-newsletter:hover{
 }
 .product-bottom{
     padding:12px 20px 18px;    
-    text-align: right;
+    text-align: center;
     position: relative;
 }
 
@@ -1443,6 +1443,7 @@ a.button-newsletter:hover{
 .product-block p{
     font-style: italic;
     min-height: 40px;
+    text-align: center;
 }
 .product-block .rating{
     margin: 10px 0;

@@ -13,33 +13,33 @@ $_['text_your_password']   = 'Your Password';
 $_['text_agree']           = 'I have read and agree to the <a class="colorbox" href="%s" alt="%s"><b>%s</b></a>';
 
 // Entry
-$_['entry_firstname']      = 'First Name:';
-$_['entry_lastname']       = 'Last Name:';
+$_['entry_firstname']      = 'Name:';
+//$_['entry_lastname']     = 'Last Name:';
 $_['entry_email']          = 'E-Mail:';
-$_['entry_telephone']      = 'Telephone:';
-$_['entry_fax']            = 'Fax:';
+$_['entry_telephone']      = 'Phone:';
+//$_['entry_fax']          = 'Fax:';
 $_['entry_company']        = 'Company:';
 $_['entry_customer_group'] = 'Business Type:';
-$_['entry_company_id']     = 'Company ID:';
 $_['entry_tax_id']         = 'Tax ID:';
-$_['entry_address_1']      = 'Address 1:';
+$_['entry_company_id']     = 'Company ID:';
+/*$_['entry_address_1']    = 'Address 1:';
 $_['entry_address_2']      = 'Address 2:';
 $_['entry_postcode']       = 'Post Code:';
 $_['entry_city']           = 'City:';
 $_['entry_country']        = 'Country:';
 $_['entry_zone']           = 'Region / State:';
-$_['entry_newsletter']     = 'Subscribe:';
+*/$_['entry_newsletter']   = 'Subscribe:';
 $_['entry_password']       = 'Password:';
-$_['entry_confirm']        = 'Password Confirm:';
+//$_['entry_confirm']      = 'Password Confirm:';
 
 // Error
 $_['error_exists']         = 'Warning: E-Mail Address is already registered!';
-$_['error_firstname']      = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']       = 'Last Name must be between 1 and 32 characters!';
+$_['error_firstname']      = 'Name must be between 1 and 32 characters!';
+//$_['error_lastname']     = 'Last Name must be between 1 and 32 characters!';
 $_['error_email']          = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']      = 'Telephone must be between 3 and 32 characters!';
+$_['error_telephone']      = 'Phone No must be between 3 and 32 characters!';
 $_['error_password']       = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']        = 'Password confirmation does not match password!';
+//$_['error_confirm']      = 'Password confirmation does not match password!';
 $_['error_company_id']     = 'Company ID required!';
 $_['error_tax_id']         = 'Tax ID required!';
 $_['error_vat']            = 'VAT number is invalid!';

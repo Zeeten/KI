@@ -44,18 +44,6 @@
 						<tr>
 							<td>
 								<span class="required">*</span> 
-								<?php echo $entry_lastname; ?>
-							</td>
-							<td>
-								<input type="text" name="lastname" value="<?php echo $lastname; ?>" class="span8" />
-								<?php if ($error_lastname) { ?>
-								<span class="error"><?php echo $error_lastname; ?></span>
-								<?php } ?>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<span class="required">*</span> 
 								<?php echo $entry_email; ?>
 							</td>
 							<td>
@@ -67,29 +55,40 @@
 						</tr>
 						<tr>
 							<td>
-								<span class="required">*</span> 
 								<?php echo $entry_telephone; ?>
 							</td>
 							<td>
-								<input type="text" name="telephone" value="<?php echo $telephone; ?>" class="span8" />
-								<?php if ($error_telephone) { ?>
+								<input type="text" name="telephone" class="span8" />
+								<!--<?php if ($error_telephone) { ?>
 									<span class="error"><?php echo $error_telephone; ?></span>
-								<?php } ?>
+								<?php } ?>-->
 							</td>
 						</tr>
 						<tr>
+							<td>
+								<span class="required">*</span> 
+								<?php echo $entry_password; ?>
+							</td>
+							<td>
+								<input type="password" name="password" value="<?php echo $password; ?>" class="span8" />
+								<?php if ($error_password) { ?>
+									<span class="error"><?php echo $error_password; ?></span>
+								<?php } ?>
+							</td>
+						</tr>
+						<!-- <tr>
 							<td>
 								<?php echo $entry_fax; ?>
 							</td>
 							<td>
 								<input type="text" name="fax" value="<?php echo $fax; ?>" class="span8" />
 							</td>
-						</tr>
+						</tr> -->
 					</table>
 				</div>
 			</div>
 			
-			<div class="inner">			
+			<!-- <div class="inner">			
 				<h3><?php echo $text_your_address; ?></h3>
 				<div class="content wrapper">
 					<table class="form table no-border">
@@ -214,9 +213,9 @@
 						</tr>
 		  			</table>
 				</div>
-			</div>
+			</div> -->
 			
-			<div class="inner">
+			<!-- <div class="inner">
 				<h3><?php echo $text_your_password; ?></h3>
 				<div class="content wrapper">
 					<table class="form table no-border">
@@ -246,7 +245,7 @@
 						</tr>
 					</table>
 				</div>
-			</div>
+			</div> -->
 		
 			<div class="inner">
 				<h3><?php echo $text_newsletter; ?></h3>
@@ -309,7 +308,7 @@
 		<?php echo $content_bottom; ?></div>
 		
 		<script type="text/javascript">
-		<!--
+		
 			$('input[name=\'customer_group_id\']:checked').live('change', function() {
 				var customer_group = [];
 				

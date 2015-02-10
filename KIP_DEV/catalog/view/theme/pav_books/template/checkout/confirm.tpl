@@ -23,7 +23,7 @@
 			    </td>
 			</tr>
 			<?php endif; ?>
-
+			
 			<tr>
 				<td class="name">
 					<span class="phone hidden-desktop hidden-tablet"><?php echo $column_name; ?></span>
